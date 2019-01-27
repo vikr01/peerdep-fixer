@@ -38,7 +38,10 @@ const fix = (pkg, pathToPackage = process.cwd()) => {
   });
 
   newPkg.dependencies = dependencies;
-  newPkg.peerDependencies = peerDependencies;
+
+  if (Object.keys(peerDependencies).length !== 0) {
+    newPkg.peerDependencies = peerDependencies;
+  }
 
   return newPkg;
 };
