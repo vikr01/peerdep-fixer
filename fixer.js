@@ -16,4 +16,4 @@ const currentPackageJson = JSON.parse(
 const newPackageJson = fix(currentPackageJson, pathToPackageJson);
 const newPackageJsonRaw = format(newPackageJson);
 
-fs.writeFileSync(pathToPackageJson, newPackageJsonRaw, 'utf-8');
+fs.writeFileSync(pathToPackageJson, `${newPackageJsonRaw}\n`, 'utf-8');
