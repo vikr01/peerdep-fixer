@@ -4,9 +4,10 @@
   "author": "vikr01 <vik120@icloud.com>",
   "repository": "https://github.com/vikr01/peerdep-fixer.git",
   "version": "0.1.1",
+  "main": "index.js",
   "bin": "fixer.js",
   "files": [
-    "index.js"
+    "fixer.js"
   ],
   "scripts": {
     "lint": "eslint .",
