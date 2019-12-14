@@ -17,7 +17,7 @@
     "postlint-fix": "prettier --ignore-path .eslintignore --write \"**/*.{js,json,md,yml}\""
   },
   "dependencies": {
-    "chalk": "^2.4.2",
+    "chalk": "^3.0.0",
     "resolve": "^1.10.0"
   },
   "devDependencies": {
